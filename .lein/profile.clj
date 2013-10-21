@@ -9,7 +9,8 @@
                   [lein-typed "0.3.0"]
                   [lein-marginalia "0.7.1"]
                   [org.timmc/nephila "0.2.0"]
-                  [lein-cloverage "1.0.2"]]
+                  [lein-cloverage "1.0.2"]
+                  [lein-expectations "0.0.7"]]
         :aliases {"eval" ["run" "-m" "clojure.main/main" "-e"]}
         :dependencies [[org.clojure/tools.namespace "0.2.4"]
                        [org.clojure/tools.trace "0.7.6"]
