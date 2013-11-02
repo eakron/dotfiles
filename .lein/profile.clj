@@ -14,12 +14,13 @@
         :aliases {"eval" ["run" "-m" "clojure.main/main" "-e"]}
         :dependencies [[org.clojure/tools.namespace "0.2.4"]
                        [org.clojure/tools.trace "0.7.6"]
-                       [org.clojure/core.typed "0.2.4"]
+                       [org.clojure/core.typed "0.2.15"]
                        [night-vision "0.1.0-SNAPSHOT"]
                        [alembic "0.2.0"]
-                       [riddley "0.1.0"]
+                       [riddley "0.1.6"]
                        [wally "0.1.1"]
-                       [jark "0.4.3"]]}}
+                       [jark "0.4.3"]
+                       [com.aphyr/prism "0.1.1"]]}}
 
 ;; Documentation
 
